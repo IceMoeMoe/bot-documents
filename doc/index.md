@@ -38,7 +38,7 @@ features:
 
 该页面可能要加载一会儿，不会很慢。如果你完全不会国际象棋，可以翻到最下面，按照说明体验
 
-<iframe src="https://chessin5d.nkid00.name/#/analyze?empty=true&import=W0JvYXJkICJTdGFuZMQKLSBUdXJuIFplcm8iXQpbTW9kZSAiNUQiXQo." width="1366" height="768" frameborder="0"></iframe>
+<iframe src="https://chessin5d.nkid00.name/#/analyze?empty=true&import=W0JvYXJkICJTdGFuZMQKLSBUdXJuIFplcm8iXQpbTW9kZSAiNUQiXQo." width="956" height="768" frameborder="0"></iframe>
 
 ::: tip 体验指南
 
@@ -59,7 +59,5 @@ features:
 然后，这次行动因为回到了“过去”，因此创建了新的时间线：L-1。是“-1”的原因是这条线是黑棋开启的。如果是白棋开启的那么就是L1。
 
 好了，现在你已经完全搞懂了！自由体验吧！
-
-:::
 
 :::
