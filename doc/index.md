@@ -26,7 +26,7 @@ features:
 <!-- markdownlint-disable-next-line MD041 -->
 ## 等等！你有没有可能恰好很无聊？
 
-::: 点击查看一段废话
+::: details 点击查看一段废话
 
 请允许我介绍我们光荣而伟大的游戏：5d chess with multiverse timetravel
 
@@ -40,9 +40,7 @@ features:
 
 <iframe src="https://chessin5d.nkid00.name/#/analyze?empty=true&import=W0JvYXJkICJTdGFuZMQKLSBUdXJuIFplcm8iXQpbTW9kZSAiNUQiXQo." width="1366" height="768" frameborder="0"></iframe>
 
-::: 体验指南
-
-体验指南：
+::: tip 体验指南
 
 第一步：用滚轮放大缩小嵌入页面，用鼠标右键拖动，左键点击和选择。你可以看到棋盘上有横向的abcdefgh和纵向的12345678标记。我们将每个格子命名为a1,b1,c1，依此类推
 
