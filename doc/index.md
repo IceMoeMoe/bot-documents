@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "冷筱华的有限迷宫"
   text: "玩家手册"
-  tagline: 插件列表
+  tagline: https://github.com/shakugannosaints
   actions:
     - theme: brand
       text: SealDice插件
