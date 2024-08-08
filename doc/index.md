@@ -26,7 +26,7 @@ features:
 <!-- markdownlint-disable-next-line MD041 -->
 ## 等等！你有没有可能恰好很无聊？
 
-::: tip
+::: tip 如果你很无聊那么请看看这个！
 
 请允许我介绍我们光荣而伟大的游戏：5d chess with multiverse timetravel
 
