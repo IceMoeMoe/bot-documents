@@ -11,12 +11,19 @@ hero:
       text: GPTscripts
       link: /sealdice/GPTscripts
     - theme: brand
-      text: 敬请期待
-      link: /sealdice_menu
+      text: 5eSpells
+      link: /sealdice/5eSpells
+    - theme: brand
+      text: 可开关复读机
+      link: /sealdice/可开关复读机
+    - theme: brand
+      text: runCode
+      link: /sealdice/runCode
+
 
 features:
   - title: 轻量化
-    details: 单js究极轻量
+    details: 单js究极轻量（起码大部分是）
   - title: 方便快捷
     details: 开箱即用
   - title: 完全开源
