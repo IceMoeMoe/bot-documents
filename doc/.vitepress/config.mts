@@ -10,7 +10,8 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: 'Koishi', link: 'https://koishi.chat/zh-CN/' },
-      { text: '海豹', link: 'https://dice.weizaima.com/' }
+      { text: '海豹', link: 'https://dice.weizaima.com/' },
+      { text: '塞壬唱片', link: 'https://monster-siren.hypergryph.com/' }
     ],
 
     sidebar: {
@@ -21,7 +22,7 @@ export default defineConfig({
           items: [
             { text: '去看海豹', link: '/sealdice/sealdice_menu' },
             { text: 'DungerCrafter', link: '/Koishi/DungeonCrafter' },
-            { text: '没有别的啦！', link: 'https://monster-siren.hypergryph.com/' }
+            { text: '没有别的啦！' }
           ]
         }
       ],
@@ -35,7 +36,7 @@ export default defineConfig({
             { text: '5eSpells', link: '/sealdice/5eSpells' },
             { text: 'runCode', link: '/sealdice/runCode' },
             { text: '可开关复读机', link: '/sealdice/repeater' },
-            { text: '没有别的啦！', link: 'https://monster-siren.hypergryph.com/'}
+            { text: '没有别的啦！' }
           ]
          }
        ]
