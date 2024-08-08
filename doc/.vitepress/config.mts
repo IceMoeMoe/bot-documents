@@ -18,8 +18,8 @@ export default defineConfig({
         {
           text: 'Koishi',
           items: [
-            { text: '去看海豹', link: '/sealdice/' },
-            { text: 'DungerCrafter', link: '/DungeonCrafter' },
+            { text: '去看海豹', link: '/sealdice/sealdice_menu' },
+            { text: 'DungerCrafter', link: '/Koishi/DungeonCrafter' },
             { text: '没有别的啦！', link: 'https://ak.hypergryph.com/' }
           ]
         }
@@ -29,7 +29,7 @@ export default defineConfig({
         {
           text: 'sealdice',
           items: [
-            { text: '去看Koishi', link: '/Koishi/' },
+            { text: '去看Koishi', link: '/Koishi/Koishi_menu' },
             { text: 'GPTScript', link: '/sealdice/GPTscripts' },
             { text: '5eSpells', link: '/sealdice/5eSpells' },
             { text: 'runCode', link: '/sealdice/runCode' },
