@@ -38,6 +38,8 @@ outline: deep
 
 - **墙的颜色**: 地城墙体颜色，默认为黑色
 - **过道颜色**: 地城过道颜色，默认为白色
+- **房间最小边长**: 房间的最小边长，推荐值3
+- **房间最大边长**: 房间的最大边长，推荐值5
 
 ### 代码解释
 
@@ -53,7 +55,7 @@ generateMaze(width: number, height: number, property: number, config: Config): s
   - `width`: 地城宽度
   - `height`: 地城高度
   - `property`: 在给定位置创建房间的概率。（为什么是property？因为一开始是用这个来生成宝箱的）
-  - `config`: 墙体和过道的颜色配置
+  - `config`: 墙体和过道的颜色配置，以及房间大小控制
 
 - **Returns**: 一个二维数组，每个元素代表地城里的一个格子。 墙是`wallColor`, 过道是`pathColor`.
 
@@ -65,7 +67,7 @@ writeToFile(map: string[][], config: Config)
 
 - **参数**:
   - `map`: 表示地城地图的二维矩阵
-  - `config`: 包含墙和路径颜色的配置对象
+  - `config`: 包含墙和路径颜色的配置对象以及房间最大边长、最小边长控制
 
 - **Returns**: 一个图像buffer，保存生成的地城
 
