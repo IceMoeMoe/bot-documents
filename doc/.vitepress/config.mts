@@ -46,7 +46,7 @@ export default defineConfig({
     ],
     
     editLink: {
-      pattern: 'https://github.com/IceMoeMoe/bot_document/docs/:path',
+      pattern: 'https://github.com/IceMoeMoe/bot_document/tree/master/doc:path',
       text: '在 GitHub 上编辑此页面'
     },
 
