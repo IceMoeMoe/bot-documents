@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: SealDice插件
-      link: /sealdice_menu
+      link: /sealdice/sealdice_menu
     - theme: brand
       text: Koishi插件
-      link: /Koishi_menu
+      link: /Koishi/Koishi_menu
 
 features:
   - title: 功能介绍
