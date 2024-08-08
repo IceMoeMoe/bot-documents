@@ -12,15 +12,33 @@ export default defineConfig({
       { text: '海豹', link: 'https://dice.weizaima.com/' }
     ],
 
-    sidebar: [
-      {
-        text: '插件列表',
-        items: [
-          { text: '海豹插件列表', link: '/sealdice_menu' },
-          { text: 'Koishi插件列表', link: '/Koishi_menu' }
-        ]
-      }
-    ],
+    sidebar: {
+      // 当用户位于 `guide` 目录时，会显示此侧边栏
+      '/Koishi/': [
+        {
+          text: 'Koishi',
+          items: [
+            { text: '去看海豹', link: '/sealdice/' },
+            { text: 'DungerCrafter', link: '/DungeonCrafter' },
+            { text: '没有别的啦！', link: 'https://ak.hypergryph.com/' }
+          ]
+        }
+      ],
+       // 当用户位于 `config` 目录时，会显示此侧边栏
+       '/sealdice/': [
+        {
+          text: 'sealdice',
+          items: [
+            { text: '去看Koishi', link: '/Koishi/' },
+            { text: 'GPTScript', link: '/sealdice/GPTscripts' },
+            { text: '5eSpells', link: '/sealdice/5eSpells' },
+            { text: 'runCode', link: '/sealdice/runCode' },
+            { text: '可开关复读机', link: '/sealdice/repeater' },
+            { text: '没有别的啦！', link: 'https://ak.hypergryph.com/'}
+          ]
+         }
+       ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/shakugannosaints/' }
