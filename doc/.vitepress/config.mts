@@ -21,7 +21,7 @@ export default defineConfig({
           items: [
             { text: '去看海豹', link: '/sealdice/sealdice_menu' },
             { text: 'DungerCrafter', link: '/Koishi/DungeonCrafter' },
-            { text: '没有别的啦！', link: 'https://ak.hypergryph.com/' }
+            { text: '没有别的啦！', link: 'https://monster-siren.hypergryph.com/' }
           ]
         }
       ],
@@ -35,7 +35,7 @@ export default defineConfig({
             { text: '5eSpells', link: '/sealdice/5eSpells' },
             { text: 'runCode', link: '/sealdice/runCode' },
             { text: '可开关复读机', link: '/sealdice/repeater' },
-            { text: '没有别的啦！', link: 'https://ak.hypergryph.com/'}
+            { text: '没有别的啦！', link: 'https://monster-siren.hypergryph.com/'}
           ]
          }
        ]
@@ -46,7 +46,7 @@ export default defineConfig({
     ],
     
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/IceMoeMoe/bot_document/docs/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
