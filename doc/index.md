@@ -30,11 +30,13 @@ features:
 
 简单来说，这是一个允许棋子在“回合”上移动的游戏。不过这可不是悔棋！移动到已经发生过的过去时，你会创建一条新的时间线！
 
-你可以在下面的嵌入页面中在线体验它，或者在steam上购买正版：https://store.steampowered.com/app/1349230/5D_Chess_With_Multiverse_Time_Travel/
+你可以在下面的嵌入页面中在线体验它，或者在steam上购买正版：
+
+<iframe src="https://store.steampowered.com/widget/1349230/" frameborder="0" width="646" height="190"></iframe>
 
 该页面可能要加载一会儿，不会很慢。如果你完全不会国际象棋，可以翻到最下面，按照说明体验
 
-<iframe src="https://chessin5d.nkid00.name/#/analyze?empty=true&import=W0JvYXJkICJTdGFuZMQKLSBUdXJuIFplcm8iXQpbTW9kZSAiNUQiXQo." width="1366" height="768"></iframe>
+<iframe src="https://chessin5d.nkid00.name/#/analyze?empty=true&import=W0JvYXJkICJTdGFuZMQKLSBUdXJuIFplcm8iXQpbTW9kZSAiNUQiXQo." width="1366" height="768" frameborder="0"></iframe>
 
 体验指南：
 
