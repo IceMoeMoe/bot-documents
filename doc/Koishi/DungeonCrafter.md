@@ -79,7 +79,7 @@ writeToFile(map: string[][], config: Config)
 
 一个使用默认设置输出的地城：
 
-![Example Dungeon](https://github.com/shakugannosaints/koishi-scripts/blob/main/DungeonCrafter/src/example.png?raw=true)
+![maze.png](https://s2.loli.net/2024/08/08/UfX3kRNGBuvpgLD.png)
 
 ## 更多
 
