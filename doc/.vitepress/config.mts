@@ -22,6 +22,7 @@ export default defineConfig({
           items: [
             { text: '去看海豹', link: '/sealdice/sealdice_menu' },
             { text: 'DungerCrafter', link: '/Koishi/DungeonCrafter' },
+            { text: '5esearch', link: `/Koishi/5esearch`},
             { text: '没有别的啦！' }
           ]
         }
