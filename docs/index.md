@@ -1,18 +1,18 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+# https://vitepress.dev/zh/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "冷筱华的有限迷宫"
-  text: "玩家手册"
+  name: 冷筱华的有限迷宫
+  text: 玩家手册
   tagline: https://github.com/shakugannosaints
   actions:
     - theme: brand
-      text: SealDice插件
-      link: /sealdice/sealdice_menu
+      text: SealDice 插件
+      link: /sealdice/
     - theme: brand
-      text: Koishi插件
-      link: /Koishi/Koishi_menu
+      text: Koishi 插件
+      link: /koishi/
 
 features:
   - title: 功能介绍
@@ -23,10 +23,9 @@ features:
     details: 给我玩明日方舟
 ---
 
-<!-- markdownlint-disable-next-line MD041 -->
 ## 等等！你有没有可能恰好很无聊？
 
-::: tip 如果你很无聊那么请看看这个！
+::: info 如果你很无聊那么请看看这个！
 
 请允许我介绍我们光荣而伟大的游戏：5d chess with multiverse timetravel
 
@@ -34,7 +33,7 @@ features:
 
 你可以在下面的嵌入页面中在线体验它，或者在steam上购买正版：
 
-<iframe src="https://store.steampowered.com/widget/1349230/" frameborder="0" width="646" height="190" style="max-width:100%;color-scheme: normal;"></iframe>
+<iframe src="https://store.steampowered.com/widget/1349230/" frameborder="0" width="646" height="190" style="max-width: 100%; color-scheme: normal;"></iframe>
 
 该页面可能要加载一会儿，不会很慢。如果你完全不会国际象棋，可以翻到最下面，按照说明体验
 

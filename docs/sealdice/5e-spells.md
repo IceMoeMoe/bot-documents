@@ -1,7 +1,3 @@
----
-outline: deep
----
-
 # 5eSpells 说明文档
 
 ## 为什么叫这个名字？

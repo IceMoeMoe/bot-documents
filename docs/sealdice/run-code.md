@@ -1,7 +1,3 @@
----
-outline: deep
----
-
 # RunCode 说明文档
 
 ## 为什么叫这个名字？

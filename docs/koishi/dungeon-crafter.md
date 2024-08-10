@@ -1,7 +1,3 @@
----
-outline: deep
----
-
 # Dungeon Crafter 说明文档
 
 总之就是`DungeonCrafter`的说明文档，解释了代码的运作和需要注意的事情

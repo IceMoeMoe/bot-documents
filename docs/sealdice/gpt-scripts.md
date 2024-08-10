@@ -1,7 +1,3 @@
----
-outline: deep
----
-
 # GPTscript 说明文档
 
 如何使用GPTscript，怎么更好地使用GPTscrpit

@@ -15,41 +15,53 @@ export default defineConfig({
     ],
 
     sidebar: {
-      // 当用户位于 `guide` 目录时，会显示此侧边栏
-      '/Koishi/': [
+      '/sealdice/': [
         {
-          text: 'Koishi',
+          text: 'SealDice 介绍',
+          link: '/sealdice/'
+        },
+        {
+          text: 'SealDice 插件',
+          base: '/sealdice/',
           items: [
-            { text: '去看海豹', link: '/sealdice/sealdice_menu' },
-            { text: 'DungerCrafter', link: '/Koishi/DungeonCrafter' },
-            { text: '5esearch', link: `/Koishi/5esearch`},
-            { text: '没有别的啦！' }
+            { text: 'GPTScript', link: 'gpt-scripts' },
+            { text: '5eSpells', link: '5e-spells' },
+            { text: 'runCode', link: 'run-code' },
+            { text: '可开关复读机', link: 'repeater' }
           ]
+        },
+        {
+          text: '去看 Koishi',
+          link: '/koishi/'
         }
       ],
-       // 当用户位于 `config` 目录时，会显示此侧边栏
-       '/sealdice/': [
+      '/koishi/': [
         {
-          text: 'sealdice',
+          text: 'Koishi 介绍',
+          link: '/koishi/'
+        },
+        {
+          text: 'Koishi 插件',
+          base: '/koishi/',
           items: [
-            { text: '去看Koishi', link: '/Koishi/Koishi_menu' },
-            { text: 'GPTScript', link: '/sealdice/GPTscripts' },
-            { text: '5eSpells', link: '/sealdice/5eSpells' },
-            { text: 'runCode', link: '/sealdice/runCode' },
-            { text: '可开关复读机', link: '/sealdice/repeater' },
-            { text: '没有别的啦！' }
+            { text: 'DungerCrafter', link: 'dungeon-crafter' },
+            { text: '5eSearch', link: '5e-search' }
           ]
-         }
-       ]
+        },
+        {
+          text: '去看 SealDice',
+          link: '/sealdice/'
+        }
+      ]
     },
-    
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/shakugannosaints/' }
     ],
-    
+
     editLink: {
-      pattern: 'https://github.com/IceMoeMoe/bot_document/tree/master/doc:path',
-      text: '在 GitHub 上编辑此页面'
+      text: '在 GitHub 上编辑此页面',
+      pattern: 'https://github.com/IceMoeMoe/bot-documents/edit/main/docs/:path'
     },
 
     docFooter: {
@@ -58,7 +70,8 @@ export default defineConfig({
     },
 
     outline: {
-      label: '页面导航'
+      label: '页面导航',
+      level: 'deep'
     },
 
     lastUpdated: {
@@ -76,5 +89,4 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式'
   }
-
-  })
+})
