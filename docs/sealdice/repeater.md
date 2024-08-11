@@ -91,8 +91,8 @@ checkRepeatMessages
   <chat-message nickname="Alice">Ciallo~</chat-message>
   <chat-message nickname="Bob">Ciallo~</chat-message>
   <chat-message nickname="Carol">Ciallo~</chat-message>
-  <chat-message nickname="Koishi">Ciallo~</chat-message>
-  <chat-message nickname="Dave">Ciallo~</chat-message>
+  <chat-message nickname="海豹核心">Ciallo~</chat-message>
+  <chat-message nickname="Dave">打断复读！</chat-message>
 </chat-panel>
 
 ## 更多
