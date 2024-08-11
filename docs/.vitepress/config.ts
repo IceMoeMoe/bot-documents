@@ -13,7 +13,9 @@ export default defineConfig({
       { text: '海豹', link: 'https://dice.weizaima.com/' },
       { text: '塞壬唱片', link: 'https://monster-siren.hypergryph.com/' }
     ],
-
+    search: {
+      provider: 'local'
+    },
     sidebar: {
       '/sealdice/': [
         {
