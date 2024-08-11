@@ -10,9 +10,9 @@ export default defineConfig({
     // https://vitepress.dev/zh/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: 'Koishi', link: 'https://koishi.chat/zh-CN/' },
-      { text: '海豹', link: 'https://dice.weizaima.com/' },
-      { text: '塞壬唱片', link: 'https://monster-siren.hypergryph.com/' }
+      { text: 'Koishi', link: 'https://koishi.chat' },
+      { text: '海豹', link: 'https://dice.weizaima.com' },
+      { text: '塞壬唱片', link: 'https://monster-siren.hypergryph.com' }
     ],
 
     sidebar: {
