@@ -9,7 +9,9 @@
 
 ### 部署
 
-该插件依赖于simle-git从github仓库克隆5e不全书仓库。因此，如果你遇到了“未知错误”，请手动克隆该仓库https://github.com/DND5eChm/5echm_web，放到\koishi\data\instances\default\data目录下，重命名为5echm_web
+该插件依赖于simle-git从github仓库克隆5e不全书仓库。因此，如果你遇到了“未知错误”，请手动下载下面的仓库，放到\koishi\data\instances\default\data目录下，重命名为5echm_web
+
+https://github.com/DND5eChm/5echm_web
 
 示例完整路径：
 
