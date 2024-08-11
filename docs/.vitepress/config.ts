@@ -1,12 +1,13 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
+// https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
   title: "冷筱华的有限迷宫",
   description: "玩家手册",
   lang: "zh-CN",
+  cleanUrls: true,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // https://vitepress.dev/zh/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
       { text: 'Koishi', link: 'https://koishi.chat/zh-CN/' },
