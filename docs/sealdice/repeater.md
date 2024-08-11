@@ -87,17 +87,13 @@ checkRepeatMessages
 
 #### 示例输出
 
-```sh
-Alice>Ciallo~
-
-Bob>Ciallo~
-
-Alice>Ciallo~
-
-bot>Ciallo~
-
-Bob>Ciallo~
-```
+<chat-panel>
+  <chat-message nickname="Alice">Ciallo~</chat-message>
+  <chat-message nickname="Bob">Ciallo~</chat-message>
+  <chat-message nickname="Carol">Ciallo~</chat-message>
+  <chat-message nickname="Koishi">Ciallo~</chat-message>
+  <chat-message nickname="Dave">Ciallo~</chat-message>
+</chat-panel>
 
 ## 更多
 
