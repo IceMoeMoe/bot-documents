@@ -1,10 +1,10 @@
-# GPTscript 说明文档
+# GPTScript 说明文档
 
-如何使用GPTscript，怎么更好地使用GPTscrpit
+如何使用 GPTScript，怎么更好地使用 GPTScript
 
 ## 这插件是干啥的？
 
-很简单，用来让你的机器人连接上https://openrouter.ai/ 提供的GPT模型，然后通过指令调用机器人就可以对话了
+很简单，用来让你的机器人连接上 https://openrouter.ai 提供的GPT模型，然后通过指令调用机器人就可以对话了
 
 ### 用法
 

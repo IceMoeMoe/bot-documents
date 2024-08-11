@@ -24,9 +24,9 @@ export default defineConfig({
           text: 'SealDice 插件',
           base: '/sealdice/',
           items: [
-            { text: 'GPTScript', link: 'gpt-scripts' },
+            { text: 'GPTScript', link: 'gpt-script' },
             { text: '5eSpells', link: '5e-spells' },
-            { text: 'runCode', link: 'run-code' },
+            { text: 'RunCode', link: 'run-code' },
             { text: '可开关复读机', link: 'repeater' }
           ]
         },

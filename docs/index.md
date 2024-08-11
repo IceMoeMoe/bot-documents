@@ -39,7 +39,7 @@ features:
 
 :::
 
-<iframe src="https://chessin5d.nkid00.name/#/analyze?empty=true&import=W0JvYXJkICJTdGFuZMQKLSBUdXJuIFplcm8iXQpbTW9kZSAiNUQiXQo." width="100%" height="768" frameborder="0" style="color-scheme: normal;"></iframe>
+<iframe src="https://chessin5d.nkid00.name/#/analyze?empty=true&import=W0JvYXJkICJTdGFuZMQKLSBUdXJuIFplcm8iXQpbTW9kZSAiNUQiXQo." frameborder="0" width="100%" height="768" style="color-scheme: normal;"></iframe>
 
 ::: tip 体验指南
 
