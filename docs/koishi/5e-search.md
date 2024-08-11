@@ -67,9 +67,13 @@ const regex = new RegExp(`<H. id="[^"]*">${word}[^<]*</H.>(.*?)<P>(.*?)</P>`, 'g
   <chat-message nickname="Koishi">卡牌喷射｜SprayofCards二环咒法（吟游诗人、术士、邪术师、法师）施法时间：1动作施法距离：自身（15尺锥形）法术成分：V，S，M（一副牌组）持续时间：立即你向一处15尺锥状区域喷射卡牌，该区域内的生物必须进行一次敏捷豁免。豁免失败的生物受到2d10点力场伤害伤害并陷入目盲，持续直至其下一个回合结束。豁免成功则仅会受到一半伤害。升环施法效应：当你使用3环或更高法术位施放本法术时，你使用的法术位每比2环高一环，法术的伤害就增加1d10。</chat-message>
   <chat-message nickname="Bob">.search 波涛</chat-message>
   <chat-message nickname="Koishi">在文件 5echm_web\topics\其他\UA\战斗风格.html 中找到单词 波涛
+
 在文件 5echm_web\topics\城主指南\宝藏\智能魔法物品范例.htm 中找到单词 波涛
+
 在文件 5echm_web\topics\塞洛斯之神话奥德赛\塞洛斯冒险\塔萨.htm 中找到单词 波涛
+
 在文件 5echm_web\topics\塞洛斯之神话奥德赛\塞洛斯冒险\海上冒险.htm 中找到单词 波涛
+
 在文件 5echm_web\topics\塞洛斯之神话奥德赛\塞洛斯冒险\神启.htm 中找到单词 波涛</chat-message>
 </chat-panel>
 
