@@ -77,10 +77,10 @@ checkPermissions(ctx, msg)
 
 假设你运行了一个简单的 JavaScript 函数，结果会像这样：
 
-```
-> .run javascript console.log("Hello, World!");
-< Hello, World!
-```
+<chat-panel>
+  <chat-message nickname="Alice">.run javascript console.log("Hello, World!");</chat-message>
+  <chat-message nickname="海豹核心">Hello, World!</chat-message>
+</chat-panel>
 
 ## 更多
 

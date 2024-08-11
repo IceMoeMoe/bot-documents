@@ -42,9 +42,10 @@
 
 #### 示例输出
 
-输入：.chat_bot 我饿了
-
-返回：没问题！我会为你生成一些菜谱，你可以根据菜谱来进行烹饪：<一大堆菜谱>
+<chat-panel>
+  <chat-message nickname="Alice">.chat_bot 我饿了！</chat-message>
+  <chat-message nickname="海豹核心">没问题！我会为你生成一些菜谱，你可以根据菜谱来进行烹饪：...一大堆菜谱</chat-message>
+</chat-panel>
 
 ## 更多
 
