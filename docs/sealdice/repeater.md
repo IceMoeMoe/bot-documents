@@ -95,6 +95,8 @@ checkRepeatMessages
   <chat-message nickname="Dave">打断复读！</chat-message>
 </chat-panel>
 
-## 更多
+## DEBUG
 
-没了
+如果你遇到了图片复读失败的情况，请检查CQ码与你的消息平台版本是否匹配。本插件所使用的正则表达式总是适用于最新版的NapCatQQ。如果你正在使用其他平台，或者老版本的NapCatQQ，可以选择在github的历史版本中寻找可用的表达式，或者自己写一个可用的
+
+此外，图片的匹配使用图片size作为标记，因此有极小概率出错
