@@ -28,7 +28,8 @@ export default defineConfig({
             { text: 'GPTScript', link: 'gpt-script' },
             { text: '5eSpells', link: '5e-spells' },
             { text: 'RunCode', link: 'run-code' },
-            { text: '可开关复读机', link: 'repeater' }
+            { text: '可开关复读机', link: 'repeater' },
+            { text: 'note', link: 'note'}
           ]
         },
         {
