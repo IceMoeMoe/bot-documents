@@ -30,11 +30,14 @@
 
 # 查看群笔记
 .gnote
+```
 
 ### 使用示例
+
 <chat-panel>
   <chat-message nickname="Alice">.note 这是一条占位符笔记</chat-message>
   <chat-message nickname="海豹核心">已添加新个人笔记</chat-message>
   <chat-message nickname="Alice">.note</chat-message>
   <chat-message nickname="Koishi">  === 个人笔记 ===<br>1. [03/11/2025, 03:31:51]<br>这是一条测试笔记<br>第 1/1 页<br>使用 .note [+页码] 翻页</chat-message>
 </chat-panel>
+
