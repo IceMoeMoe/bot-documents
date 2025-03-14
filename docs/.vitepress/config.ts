@@ -48,7 +48,8 @@ export default defineConfig({
           items: [
             { text: 'DungerCrafter', link: 'dungeon-crafter' },
             { text: '5eSearch', link: '5e-search' },
-            { text: 'weather-nmc', link: 'weather-nmc' }
+            { text: 'weather-nmc', link: 'weather-nmc' },
+            { text: '太长不看', link: 'tldr'}
           ]
         },
         {
