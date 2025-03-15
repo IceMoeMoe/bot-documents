@@ -46,9 +46,9 @@ npm install koishi-plugin-tldr
   <chat-message nickname="Bob">Ciallo~</chat-message>
   <chat-message nickname="Carol">.tldr</chat-message>
   <chat-message nickname="Koishi">请回复（引用）第一条消息，并且输入1</chat-message>
-  <chat-message nickname="Carol">[引用消息]1</chat-message>
+  <chat-message nickname="Carol"><blockquote>Alice<br>Ciallo~</blockquote>1</chat-message>
   <chat-message nickname="Koishi">请回复（引用）第二条消息，并且输入2</chat-message>
-  <chat-message nickname="Carol">[引用消息]2</chat-message>
+  <chat-message nickname="Carol"><blockquote>Bob<br>Ciallo~</blockquote>2</chat-message>
   <chat-message nickname="Koishi">正在总结……</chat-message>
 </chat-panel>
 
