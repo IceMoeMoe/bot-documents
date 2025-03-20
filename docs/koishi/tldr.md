@@ -24,27 +24,20 @@ npm install koishi-plugin-tldr
 
 ## 使用方法
 
-①
-
 1. 在Koishi控制台中配置插件，设置OpenAI API密钥和其他选项
 2. 在群聊中发送`.tldr`命令启动总结流程
 3. 按照机器人提示，回复（引用）第一条消息，并输入"1"
 4. 再次按照机器人提示，回复（引用）第二条消息，并输入"2"
 5. 机器人将自动总结两条消息之间的所有聊天内容
 
-②
-
-    输入tldr <n>，自动统计前n条信息。
-
 ## 配置项
 
-| 配置项            | 类型     | 默认值                                        | 说明                 |
-| -------------- | ------ | ------------------------------------------ | ------------------ |
-| maxMessages    | number | 100                                        | 记录的最大消息数量，设置为0表示无限 |
-| openaiEndpoint | string | https://api.openai.com/v1/chat/completions | OpenAI API端点       |
-| openaiApiKey   | string | (必填)                                       | OpenAI API密钥       |
-| openaiModel    | string | gpt-3.5-turbo                              | 使用的OpenAI模型        |
-| Textlimit      | number | 60000                                      | 最大统计上下文            |
+| 配置项 | 类型 | 默认值 | 说明 |
+|-------|------|-------|------|
+| maxMessages | number | 100 | 记录的最大消息数量，设置为0表示无限 |
+| openaiEndpoint | string | https://api.openai.com/v1/chat/completions | OpenAI API端点 |
+| openaiApiKey | string | (必填) | OpenAI API密钥 |
+| openaiModel | string | gpt-3.5-turbo | 使用的OpenAI模型 |
 
 ## 示例
 
