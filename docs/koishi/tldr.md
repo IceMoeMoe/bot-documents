@@ -42,7 +42,7 @@ npm install koishi-plugin-tldr
 | openaiEndpoint | string | https://api.openai.com/v1/chat/completions | OpenAI API端点 |
 | openaiApiKey | string | (必填) | OpenAI API密钥 |
 | openaiModel | string | gpt-3.5-turbo | 使用的OpenAI模型 |
-|Textlimit | number | 60000 | 最大统计上下文 |
+| Textlimit | number | 60000 | 最大统计上下文 |
 
 ## 示例
 
