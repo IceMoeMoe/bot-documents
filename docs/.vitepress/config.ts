@@ -64,7 +64,8 @@ export default defineConfig({
             { text: '5eSearch', link: '5e-search' },
             { text: 'weather-nmc', link: 'weather-nmc' },
             { text: '太长不看', link: 'tldr'},
-            { text: 'w-vpet', link: 'w-vpet' }
+            { text: 'w-vpet', link: 'w-vpet' },
+            { text: 'triangle-agency', link: 'triangle-agency' }
           ]
         },
         {
