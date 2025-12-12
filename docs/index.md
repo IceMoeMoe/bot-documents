@@ -13,6 +13,12 @@ hero:
     - theme: brand
       text: Koishi 插件
       link: /koishi/
+    - theme: brand
+      text: AgencyOS
+      link: /agencyos/
+    - theme: brand
+      text: Others
+      link: /others/
 
 features:
   - title: 功能介绍

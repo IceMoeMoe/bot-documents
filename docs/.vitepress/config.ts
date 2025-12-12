@@ -30,6 +30,16 @@ export default defineConfig({
 
     // 侧边栏配置
     sidebar: {
+      '/agencyos/': [
+        {
+          text: 'AgencyOS',
+          items: [
+            { text: '介绍', link: '/agencyos/' },
+            { text: '部署指南', link: '/agencyos/deploy' },
+            { text: '开发指南', link: '/agencyos/dev' }
+          ]
+        }
+      ],
       '/sealdice/': [
         {
           text: 'SealDice 介绍',
